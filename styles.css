@@ -1,0 +1,86 @@
+body {
+	background-color: #9898CA;
+}
+nav {
+	display: block;
+	margin: 10px auto; 		
+	
+}
+.navigation {
+	display: inline-block;
+	font-size: 14px;
+	font-family: 'Times New Roman', Times, serif;
+	color: rgb(0, 0, 0);
+	text-transform: uppercase;
+	padding: 5px 15px;
+}
+.navigation:hover {
+	text-decoration: underline;
+	background-color: rgb(254, 209, 54);
+	cursor: pointer;
+}
+.active {
+	text-decoration: underline;
+	background-color: rgb(216, 105, 53);
+	cursor: pointer;
+}
+
+.bgrnd-main {
+	display: block;
+	width: 80%;
+	text-align: center;
+	position: relative;
+	margin: 40px auto;
+}
+
+.help-block {
+
+	margin: 10px auto; 		
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+
+}
+.bgrnd-test {
+	display: block;
+	width: 50%;
+	position: relative;
+	margin: 40px auto;
+}
+.testarea{
+	width: 30%;
+	margin: 10px auto; 		
+	
+}
+.testblock{
+	display: block;
+	width: 90%;
+	margin: 10px auto;
+}
+.test-part {
+	margin-bottom: 20px;
+	padding:15px;
+	background-color: rgb(230, 175, 124);
+}
+.item {
+	display: inline;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-left: 50px;
+	
+
+}
+.list {
+	display: block;
+	text-align: center;
+	display: inline;
+	font-size: 1.5em;
+
+}
+.test-header {
+	margin-top: 2px;
+}
+.final {
+	font-size: 18px;
+	font-weight: bold;
+}
